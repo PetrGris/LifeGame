@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#stop {
+    background-color: #f44336;
+}
+
+#stop:hover {
+    background-color: #d32f2f;
+}
+
+#clear {
+    background-color: #2196F3;
+}
+
+#clear:hover {
+    background-color: #1976D2;
+}
+
+#random {
+    background-color: #9C27B0;
+}
+
+#random:hover {
+    background-color: #7B1FA2;
+}
+
+.speed-control {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#gameCanvas {
+    border: 1px solid #ddd;
+    background-color: white;
+    max-width: 100%;
+} 
